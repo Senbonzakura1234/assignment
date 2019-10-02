@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -24,6 +26,7 @@ namespace T1807EHello.Pages
     /// </summary>
     public sealed partial class SongList : Page
     {
+        private const string SongListUrl = "https://2-dot-backup-server-003.appspot.com/_api/v2/songs/get-free-songs";
         public SongList()
         {
             this.InitializeComponent();
@@ -35,6 +38,9 @@ namespace T1807EHello.Pages
             //{
             //    get;
             //} = new 
+            var client = new HttpClient();
+            var responseContent = client.GetAsync(SongListUrl).Result.Content.ReadAsStringAsync().Result;
+            Debug.WriteLine(responseContent);
         }
     }
 }

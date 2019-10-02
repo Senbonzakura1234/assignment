@@ -41,14 +41,14 @@
 
                 <TextBox x:ConnectionId='8' Header="Link" Margin="5 0 0 0" Grid.Row="4" Grid.Column="1" x:Name="Link"/>
 
-               
 
-                <TextBlock x:ConnectionId='9' x:Name="VName" Grid.Row="1" Grid.Column="0"></TextBlock>
-                <TextBlock x:ConnectionId='10' x:Name="VDescription" Grid.Row="1" Grid.Column="1"></TextBlock>
-                <TextBlock x:ConnectionId='11' x:Name="VSinger" Grid.Row="3" Grid.Column="0"></TextBlock>
-                <TextBlock x:ConnectionId='12' x:Name="VAuthor" Grid.Row="3" Grid.Column="1"></TextBlock>
-                <TextBlock x:ConnectionId='13' x:Name="VThumbnail" Grid.Row="5" Grid.Column="0"></TextBlock>
-                <TextBlock x:ConnectionId='14' x:Name="VLink" Grid.Row="5" Grid.Column="1"></TextBlock>
+
+                <TextBlock x:ConnectionId='9' Margin="15 0 0 0" x:Name="VName" Grid.Row="1" Grid.Column="0"></TextBlock>
+                <TextBlock Margin="15 0 25 0" Grid.Row="1" Grid.Column="1"></TextBlock>
+                <TextBlock Margin="15 0 0 0" Grid.Row="3" Grid.Column="0"></TextBlock>
+                <TextBlock Margin="15 0 25 0" Grid.Row="3" Grid.Column="1"></TextBlock>
+                <TextBlock x:ConnectionId='10' Margin="15 0 0 0" x:Name="VThumbnail" Grid.Row="5" Grid.Column="0"></TextBlock>
+                <TextBlock x:ConnectionId='11' Margin="15 0 0 0" x:Name="VLink" Grid.Row="5" Grid.Column="1"></TextBlock>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>

@@ -50,19 +50,22 @@ namespace T1807EHello.Entity
 
         public ValidateData Validation(Song song)
         {
-            var songValidateData = new ValidateData();
+            var songValidateData = new ValidateData
+            {
+                
+                name = !string.IsNullOrWhiteSpace(song.name) 
+                    ? song.name.Length <= 50 ? "Name is Valid" : "Name must less then 50 characters"
+                    : "Name is required",
+                thumbnail = !string.IsNullOrWhiteSpace(song.thumbnail) ? "Thumbnail is valid" : "Thumbnail is required",
+                link = !string.IsNullOrWhiteSpace(song.link)
+                    ? song.link.EndsWith(".mp3") ? "Link is valid" : "Link must end with .mp3"
+                    : "Link is required",
+                valid = song.name != null &&
+                        song.thumbnail != null &&
+                        song.link != null && song.name.Length <= 50 && song.link.EndsWith(".mp3")
+            };
 
-            songValidateData.name = song.name != null
-                ? song.name.Length <= 50 ? "Name is Valid" : "Name must less then 50 characters"
-                : "Name is required";
-            songValidateData.thumbnail = song.thumbnail != null ? "Thumbnail is valid" : "Thumbnail is required";
-            songValidateData.link = song.link != null
-                ? song.link.EndsWith(".mp3") ? "Link is valid" : "Link must end with .mp3"
-                : "Link is required";
 
-            songValidateData.valid = song.name != null &&
-                                     song.thumbnail != null &&
-                                     song.link != null && song.name.Length <= 50 && song.link.EndsWith(".mp3");
             return songValidateData;
         }
 
