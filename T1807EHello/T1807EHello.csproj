@@ -120,10 +120,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entity\DialogService.cs" />
-    <Compile Include="Entity\HarshMD5.cs" />
     <Compile Include="Entity\SongManager.cs" />
     <Compile Include="Entity\Song.cs" />
-    <Compile Include="Entity\MemberLogin.cs" />
     <Compile Include="Entity\SongManagerImp.cs" />
     <Compile Include="Entity\ValidateData.cs" />
     <Compile Include="MainPage.xaml.cs">

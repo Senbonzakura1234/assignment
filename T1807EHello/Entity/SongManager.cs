@@ -9,16 +9,10 @@ namespace T1807EHello.Entity
 {
     internal interface ISongManager
     {
-        string Login(string email, string password);
 
         Song Upload(Song member);
 
-        Song GetInformation(string token);
         ValidateData Validation(Song song);
-
-        StorageFile CreateTokenFile(string token);
-
-        string ReadTokenFile(string fileName);
 
     }
 }

@@ -18,7 +18,8 @@
             <NavigationView.MenuItems>
                 <NavigationViewItemHeader x:Name="MainPagesHeader"
                                            Content="Main pages"/>
-                <NavigationViewItem Tag="register" Icon="Add" Content="Upload"/>
+                <NavigationViewItem Tag="upload" Icon="Add" Content="Upload"/>
+                <NavigationViewItem Tag="songList" Icon="List" Content="Upload"/>
             </NavigationView.MenuItems>
 
 
