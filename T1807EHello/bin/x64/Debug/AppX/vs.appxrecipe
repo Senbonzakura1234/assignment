@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>fe5b2691-d74d-4819-a2de-878f204c932a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Aspire A315-51</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>BCBC583A8A25260E52A0D78723BFD4D374C14DCE32271ED631FE4C1D772C2182</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fe5b2691-d74d-4819-a2de-878f204c932a_1.0.0.0_x64__y3gjqcve5s7z6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fe5b2691-d74d-4819-a2de-878f204c932a_y3gjqcve5s7z6!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-02T11:07:43.434</Modified>
+      <Modified>2019-10-02T13:39:12.488</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\T1807EHello.exe">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\T1807EHello.exe">
       <PackagePath>entrypoint\T1807EHello.exe</PackagePath>
-      <Modified>2019-10-02T11:07:42.878</Modified>
+      <Modified>2019-10-02T13:39:11.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aspire A315-51\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -50,111 +50,83 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-09-18T12:04:06.329</Modified>
+      <Modified>2019-10-02T12:06:16.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-16T14:47:01.779</Modified>
+      <Modified>2019-10-02T12:06:16.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\T1807EHello.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\T1807EHello.xr.xml">
       <PackagePath>T1807EHello.xr.xml</PackagePath>
-      <Modified>2019-09-28T16:36:43.174</Modified>
+      <Modified>2019-10-02T12:54:18.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.569</Modified>
+      <Modified>2019-10-02T13:39:11.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.570</Modified>
+      <Modified>2019-10-02T13:39:11.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\edit.xbf">
-      <PackagePath>Pages\edit.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.570</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\FileHandle.xbf">
-      <PackagePath>Pages\FileHandle.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.570</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\Home.xbf">
-      <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.571</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\Login.xbf">
-      <PackagePath>Pages\Login.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.571</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\MasterLayout.xbf">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\Pages\MasterLayout.xbf">
       <PackagePath>Pages\MasterLayout.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.571</Modified>
+      <Modified>2019-10-02T13:39:11.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\mySong.xbf">
-      <PackagePath>Pages\mySong.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.571</Modified>
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\Pages\SongList.xbf">
+      <PackagePath>Pages\SongList.xbf</PackagePath>
+      <Modified>2019-10-02T13:39:11.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\newSong.xbf">
-      <PackagePath>Pages\newSong.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.572</Modified>
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\Pages\Upload.xbf">
+      <PackagePath>Pages\Upload.xbf</PackagePath>
+      <Modified>2019-10-02T13:39:11.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\profile.xbf">
-      <PackagePath>Pages\profile.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.572</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\Register.xbf">
-      <PackagePath>Pages\Register.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.572</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\setting.xbf">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\Pages\setting.xbf">
       <PackagePath>Pages\setting.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.572</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Pages\upload.xbf">
-      <PackagePath>Pages\upload.xbf</PackagePath>
-      <Modified>2019-10-02T11:07:42.573</Modified>
+      <Modified>2019-10-02T13:39:11.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-30T09:10:16.995</Modified>
+      <Modified>2019-10-02T12:54:19.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aspire A315-51\source\repos\T1807EHello\T1807EHello\bin\x64\Debug\Core\T1807EHello.exe">
+    <AppxPackagedFile Include="C:\Users\Aspire A315-51\Desktop\baitap\T1807EHello\bin\x64\Debug\Core\T1807EHello.exe">
       <PackagePath>T1807EHello.exe</PackagePath>
-      <Modified>2019-10-02T11:07:43.429</Modified>
+      <Modified>2019-10-02T13:39:12.469</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

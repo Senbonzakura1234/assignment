@@ -41,15 +41,7 @@ namespace T1807EHello.Pages
         // List of ValueTuple holding the Navigation Tag and the relative Navigation Page
         private readonly List<(string Tag, Type Page)> _pages = new List<(string Tag, Type Page)>
         {
-            ("home", typeof(Home)),
-            ("login", typeof(Login)),
-            ("register", typeof(Register)),
-            ("newSong", typeof(newSong)),
-            ("upload", typeof(upload)),
-            ("mySong", typeof(mySong)),
-            ("profile", typeof(profile)),
-            ("edit", typeof(edit)),
-            ("file", typeof(FileHandle))
+            ("register", typeof(Upload))
         };
 
 
@@ -73,7 +65,7 @@ namespace T1807EHello.Pages
             // If navigation occurs on SelectionChanged, this isn't needed.
             // Because we use ItemInvoked to navigate, we need to call Navigate
             // here to load the home page.
-            NavView_Navigate("home", new EntranceNavigationTransitionInfo());
+            NavView_Navigate("register", new EntranceNavigationTransitionInfo());
 
             // Add keyboard accelerators for backwards navigation.
             var goBack = new KeyboardAccelerator { Key = VirtualKey.GoBack };

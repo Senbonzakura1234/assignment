@@ -8259,11 +8259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aspire A315-51\\source\\repos\\T1807EHello\\T1807EHello\\T1807EHello.csproj",
+      "projectUniqueName": "C:\\Users\\Aspire A315-51\\Desktop\\baitap\\T1807EHello\\T1807EHello.csproj",
       "projectName": "T1807EHello",
-      "projectPath": "C:\\Users\\Aspire A315-51\\source\\repos\\T1807EHello\\T1807EHello\\T1807EHello.csproj",
+      "projectPath": "C:\\Users\\Aspire A315-51\\Desktop\\baitap\\T1807EHello\\T1807EHello.csproj",
       "packagesPath": "C:\\Users\\Aspire A315-51\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aspire A315-51\\source\\repos\\T1807EHello\\T1807EHello\\obj\\",
+      "outputPath": "C:\\Users\\Aspire A315-51\\Desktop\\baitap\\T1807EHello\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

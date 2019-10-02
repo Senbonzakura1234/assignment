@@ -7,13 +7,14 @@ using Windows.Storage;
 
 namespace T1807EHello.Entity
 {
-    internal interface IMemberService
+    internal interface ISongManager
     {
         string Login(string email, string password);
 
-        Member Register(Member member);
+        Song Upload(Song member);
 
-        Member GetInformation(string token);
+        Song GetInformation(string token);
+        ValidateData Validation(Song song);
 
         StorageFile CreateTokenFile(string token);
 

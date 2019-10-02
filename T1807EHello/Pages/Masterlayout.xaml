@@ -16,37 +16,12 @@
                          BackRequested="NavView_BackRequested"
                          PaneDisplayMode="Auto">
             <NavigationView.MenuItems>
-                <NavigationViewItem Tag="home" Icon="Home" Content="Home"/>
-                <NavigationViewItemSeparator/>
                 <NavigationViewItemHeader x:Name="MainPagesHeader"
                                            Content="Main pages"/>
-                <NavigationViewItem Tag="upload" Icon="Upload" Content="Upload"/>
-                <NavigationViewItem Tag="newSong" Content="Newest Song">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEC92;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem Tag="mySong" Content="My Song">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEC92;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem Tag="login" Icon="People" Content="Login"/>
-                <NavigationViewItem Tag="register" Icon="Add" Content="Register"/>
-                <NavigationViewItem Tag="profile" Content="User Profile">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE946;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem Tag="edit" Icon="Edit" Content="Edit Profile"/>
-                <NavigationViewItem Tag="file" Icon="Addfriend" Content="File Manager"/>
+                <NavigationViewItem Tag="register" Icon="Add" Content="Upload"/>
             </NavigationView.MenuItems>
 
-            <NavigationView.AutoSuggestBox>
-                <!-- See AutoSuggestBox documentation for
-                 more info about how to implement search. -->
-                <AutoSuggestBox x:Name="NavViewSearchBox" QueryIcon="Find"/>
-            </NavigationView.AutoSuggestBox>
+
 
             <ScrollViewer>
                 <Frame x:Name="ContentFrame" Padding="12,0,12,24" IsTabStop="True"
