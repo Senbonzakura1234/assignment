@@ -22,7 +22,7 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Button  HorizontalAlignment="Stretch" Margin="5 0 0 0" Click="Refresh" Grid.Row="0" Grid.Column="1" >Upload</Button>
+                <Button  HorizontalAlignment="Stretch" Margin="5 0 0 0" Click="Refresh" Grid.Row="0" Grid.Column="1" >Refresh</Button>
             </Grid>
             <Grid>
                 <!--ItemsSource="{x:Bind ListSong}"-->
