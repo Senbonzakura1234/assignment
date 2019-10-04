@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using T1807EHello.Entity;
+using Newtonsoft.Json;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -34,13 +35,11 @@ namespace T1807EHello.Pages
 
         private void Refresh(object sender, RoutedEventArgs e)
         {
-            //ObservableCollection<Song> Songs
-            //{
-            //    get;
-            //} = new 
+            
             var client = new HttpClient();
             var responseContent = client.GetAsync(SongListUrl).Result.Content.ReadAsStringAsync().Result;
-            Debug.WriteLine(responseContent);
+            var des = (SongList)Newtonsoft.Json.JsonConvert.DeserializeObject(responseContent, typeof(SongList));
+            Debug.WriteLine(des);
         }
     }
 }

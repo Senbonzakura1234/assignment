@@ -19,7 +19,7 @@
                 <NavigationViewItemHeader x:ConnectionId='3' x:Name="MainPagesHeader"
                                            Content="Main pages"/>
                 <NavigationViewItem Tag="upload" Icon="Add" Content="Upload"/>
-                <NavigationViewItem Tag="songList" Icon="List" Content="Upload"/>
+                <NavigationViewItem Tag="songList" Icon="List" Content="Song List"/>
             </NavigationView.MenuItems>
 
 

@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entity\DialogService.cs" />
+    <Compile Include="Entity\ListSong.cs" />
     <Compile Include="Entity\SongManager.cs" />
     <Compile Include="Entity\Song.cs" />
     <Compile Include="Entity\SongManagerImp.cs" />
