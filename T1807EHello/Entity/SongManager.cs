@@ -13,6 +13,6 @@ namespace T1807EHello.Entity
         Song Upload(Song member);
 
         ValidateData Validation(Song song);
-
+        string GetDataFromServer(string songListUrl);
     }
 }

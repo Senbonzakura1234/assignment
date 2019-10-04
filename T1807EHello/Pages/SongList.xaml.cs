@@ -27,19 +27,25 @@ namespace T1807EHello.Pages
     /// </summary>
     public sealed partial class SongList : Page
     {
+        private ObservableCollection<Song> listSong { get; set; }
         private const string SongListUrl = "https://2-dot-backup-server-003.appspot.com/_api/v2/songs/get-free-songs";
         public SongList()
         {
             this.InitializeComponent();
-        }
-
-        private void Refresh(object sender, RoutedEventArgs e)
-        {
-            
-            var client = new HttpClient();
-            var responseContent = client.GetAsync(SongListUrl).Result.Content.ReadAsStringAsync().Result;
-            var des = (SongList)Newtonsoft.Json.JsonConvert.DeserializeObject(responseContent, typeof(SongList));
-            Debug.WriteLine(des);
+            this.listSong = new ObservableCollection<Song>();
+            var songManager = new SongManagerImp();
+            var responseContent = songManager.GetDataFromServer(SongListUrl);
+            var songs = JsonConvert.DeserializeObject<List<Song>>(responseContent);
+            foreach (var item in songs)
+            {
+                this.listSong.Add(new Song()
+                {
+                    name = item.name,
+                    singer = item.singer,
+                    thumbnail = item.thumbnail,
+                    link = item.link,
+                });
+            }
         }
     }
 }

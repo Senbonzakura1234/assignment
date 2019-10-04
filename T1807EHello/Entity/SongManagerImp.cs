@@ -45,5 +45,11 @@ namespace T1807EHello.Entity
             return songValidateData;
         }
 
+        public string GetDataFromServer(string songListUrl)
+        {
+            var client = new HttpClient();
+            var responseContent = client.GetAsync(songListUrl).Result.Content.ReadAsStringAsync().Result;
+            return responseContent;
+        }
     }
 }
